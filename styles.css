@@ -1,0 +1,215 @@
+/* Home Page Specific Styles */
+body {
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text */
+    font-family: Arial, sans-serif; /* Consistent font */
+}
+
+/* Header Styles */
+header {
+    background-color: #00796b; /* Professional teal color */
+    color: white;
+    padding: 40px 0; /* Increased padding for a more substantial header */
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+h1 {
+    font-size: 2.5em; /* Larger font size for name */
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 20px 0; /* Space above and below the nav */
+}
+
+nav .nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+nav .nav-list li {
+    display: inline;
+    margin: 0 20px; /* More spacing between nav items */
+}
+
+nav .nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition effect */
+}
+
+nav .nav-list a:hover {
+    color: #ffd54f; /* Highlight color on hover */
+}
+
+/* Main Styles */
+main {
+    padding: 0; /* Remove default padding */
+}
+
+/* Welcome Message */
+.certificates {
+    margin: 20px;
+}
+
+.certificate {
+    background-color: #f4f4f4; /* Light background for each certificate block */
+    border: 1px solid #ccc; /* Light border */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    color: #4caf50; /* Change title color */
+    text-align: center; /* Center the section title */
+}
+
+
+/* Photo Styles */
+.responsive-photo {
+    width: 100px; /* Set the width of the photo */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 90%; /* Ensure it is responsive */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow */
+    display: block; /* Center the image block */
+    margin: 20px auto; /* Center the image horizontally with margin */
+}
+
+/* Projects Page Styles */
+.project-container {
+    display: flex;
+    flex-direction: column; /* Stack projects vertically */
+    align-items: center; /* Center align */
+    margin: 20px;
+}
+
+.project {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border: 1px solid #ccc; /* Light border */
+    padding: 15px;
+    margin: 15px 0; /* Margin between projects */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 80%; /* Set a max width */
+    max-width: 600px; /* Limit maximum width */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.project:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+}
+
+h2 {
+    color: #4caf50; /* Change title color */
+    text-align: center; /* Center the section title */
+}
+
+h3 {
+    color: #00796b; /* Heading color */
+}
+
+/* Education Page Styles */
+.education-container {
+    display: flex;
+    flex-direction: column; /* Stack entries vertically */
+    align-items: center; /* Center align */
+    margin: 20px; /* Outer margin */
+}
+
+.education-entry {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border: 1px solid #ccc; /* Light border */
+    padding: 15px;
+    margin: 15px 0; /* Margin between entries */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 80%; /* Set a max width */
+    max-width: 600px; /* Limit maximum width */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.education-entry:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+}
+
+h2 {
+    color: #4caf50; /* Change title color */
+    text-align: center; /* Center the section title */
+}
+
+h3 {
+    color: #00796b; /* Heading color */
+}
+.certificates-container {
+    display: flex;
+    flex-direction: column; /* Stack entries vertically */
+    align-items: center; /* Center align */
+    margin: 20px auto; /* Center the container */
+    max-width: 800px; /* Limit maximum width */
+}
+
+.certificate {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border: 1px solid #ccc; /* Light border */
+    padding: 15px;
+    margin: 15px 0; /* Margin between certificates */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%; /* Full width of the container */
+    max-width: 600px; /* Limit maximum width */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.certificate:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+}
+
+h2 {
+    color: #4caf50; /* Change title color */
+    text-align: center; /* Center the section title */
+}
+
+h4 {
+    color: #00796b; /* Heading color */
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column; /* Stack entries vertically */
+    align-items: center; /* Center align */
+    margin: 20px auto; /* Center the container */
+    max-width: 800px; /* Limit maximum width */
+}
+
+.experience {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border: 1px solid #ccc; /* Light border */
+    padding: 15px;
+    margin: 15px 0; /* Margin between experiences */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%; /* Full width of the container */
+    max-width: 600px; /* Limit maximum width */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.experience:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+}
+
+h2 {
+    color: #4caf50; /* Change title color */
+    text-align: center; /* Center the section title */
+}
+
+strong {
+    color: #00796b; /* Heading color */
+    display: block; /* Make the company name a block element */
+    margin-bottom: 5px; /* Space below the company name */
+}
