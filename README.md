@@ -1,4 +1,4 @@
-# 🌐 Reshma Banu T - Personal Portfolio
+# 🌐 Reshma Banu T - Portfolio
 
 A modern, responsive, and professionally designed personal portfolio website showcasing my academic journey, technical skills, projects, certifications, achievements, and experience.
 
@@ -6,7 +6,7 @@ This portfolio reflects my growth as an Information Technology student with inte
 
 ## 🔗 Live Portfolio
 
-Portfolio Link:
+Portfolio Link: https://reshdeenportfolio.vercel.app/
 
 
 ## ✨ Features
