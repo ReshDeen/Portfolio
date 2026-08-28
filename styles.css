@@ -463,6 +463,7 @@ img {
 }
 
 .two-col,
+.volunteer-grid,
 .skill-grid,
 .project-grid,
 .achievement-grid,
@@ -475,6 +476,15 @@ img {
 
 .two-col {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.volunteer-grid {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.volunteer-details {
+    display: grid;
+    gap: 1rem;
 }
 
 .skill-grid,
@@ -635,6 +645,14 @@ img {
     justify-content: space-between;
 }
 
+.achievement-card {
+    justify-content: flex-start;
+}
+
+.achievement-card .achievement-actions {
+    margin-top: auto;
+}
+
 .contact-card a {
     display: inline-flex;
     width: fit-content;
@@ -678,7 +696,8 @@ img {
 @media (max-width: 900px) {
     .nav-inner,
     .hero-grid,
-    .two-col {
+    .two-col,
+    .volunteer-grid {
         grid-template-columns: 1fr;
     }
 
@@ -716,6 +735,7 @@ img {
     .photo-card {
         padding: 0.75rem;
     }
+
 }
 
 /* Certificate card interactions */
@@ -727,16 +747,17 @@ img {
 }
 
 /* Focus states for accessibility */
-.button:focus,
-.nav-list a:focus,
-.certificate-card:focus,
-.view-post:focus {
+.button:focus-visible,
+.nav-list a:focus-visible,
+.certificate-card:focus-visible,
+.view-post:focus-visible {
     outline: 3px solid rgba(77,104,58,0.18);
     outline-offset: 3px;
 }
 
 .experience-actions,
 .achievement-actions,
+.volunteer-actions,
 .cert-actions {
     display: flex;
     gap: 0.6rem;
